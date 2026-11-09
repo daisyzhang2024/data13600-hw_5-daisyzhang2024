@@ -1,0 +1,11 @@
+# Django
+db.sqlite3
+**/migrations/
+media/
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
