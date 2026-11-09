@@ -62,3 +62,11 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Where uploaded QR code images are saved
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
+
+# Where users go after logging in or out at /accounts/login/
+LOGIN_REDIRECT_URL = "/app/"
+LOGOUT_REDIRECT_URL = "/app/"
